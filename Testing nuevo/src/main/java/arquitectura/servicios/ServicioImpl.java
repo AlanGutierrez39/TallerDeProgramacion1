@@ -1,7 +1,6 @@
 package arquitectura.servicios;
 
-import com.tallerDeProgra.capaDeNegocios.Sistema;
-
+import capaDeNegocios.Sistema;
 import excepciones.WrongPasswordException;
 import excepciones.WrongUserException;
 

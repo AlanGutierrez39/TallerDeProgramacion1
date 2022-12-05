@@ -12,9 +12,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.tallerDeProgra.capaDeNegocios.Sistema;
-import com.tallerDeProgra.capaDePresentacion.Controladores.ControladorLogin;
-
+import capaDeNegocios.Sistema;
+import capaDePresentacion.Controladores.ControladorLogin;
 import persistencia.IPersistencia;
 import persistencia.Persistencia;
 import persistencia.SistemaDTO;

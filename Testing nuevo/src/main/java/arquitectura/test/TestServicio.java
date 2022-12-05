@@ -1,24 +1,16 @@
 package arquitectura.test;
 
-import arquitectura.servicios.Servicio;
-import arquitectura.servicios.ServicioImpl;
-
-import com.tallerDeProgra.capaDeNegocios.Sistema;
-
-import excepciones.WrongPasswordException;
-import excepciones.WrongUserException;
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
-import org.junit.runner.RunWith;
-
-import org.mockito.junit.MockitoJUnitRunner;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import org.mockito.Mockito;
+import arquitectura.servicios.Servicio;
+import arquitectura.servicios.ServicioImpl;
+import capaDeNegocios.Sistema;
+import excepciones.WrongPasswordException;
+import excepciones.WrongUserException;
 
 
 public class TestServicio

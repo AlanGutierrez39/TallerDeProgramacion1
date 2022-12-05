@@ -2,6 +2,7 @@ package testGUI;
 
 import java.awt.Component;
 import java.awt.Robot;
+
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
@@ -10,8 +11,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.tallerDeProgra.capaDeNegocios.Sistema;
-import com.tallerDeProgra.capaDePresentacion.Controladores.ControladorLogin;
+import capaDeNegocios.Sistema;
+import capaDePresentacion.Controladores.ControladorLogin;
 
 public class TestVentanaLoginPrimerIngreso
 {

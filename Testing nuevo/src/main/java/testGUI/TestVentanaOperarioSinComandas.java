@@ -13,10 +13,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.tallerDeProgra.capaDeDatos.Comanda;
-import com.tallerDeProgra.capaDeNegocios.Sistema;
-import com.tallerDeProgra.capaDePresentacion.Controladores.ControladorFacturacionYPedidos;
-
+import capaDeDatos.Comanda;
+import capaDeNegocios.Sistema;
+import capaDePresentacion.Controladores.ControladorFacturacionYPedidos;
 import persistencia.IPersistencia;
 import persistencia.Persistencia;
 import persistencia.SistemaDTO;
